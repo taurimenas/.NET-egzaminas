@@ -16,14 +16,14 @@ namespace ClassLibrary
             };
             Customer client2 = new Customer()
             {
-                CustomerId = 1,
+                CustomerId = 2,
                 Name = "Tomas",
                 LastName = "Antanaitis",
                 Payments = PaymentData.AddPayments(),
             };
             Customer client3 = new Customer()
             {
-                CustomerId = 1,
+                CustomerId = 3,
                 Name = "Ona",
                 LastName = "Antanaite",
                 Payments = PaymentData.AddPayments(),
