@@ -11,17 +11,14 @@ namespace EgzaminasPraktineUzduotis
     {
         static void Main()
         {
-            ClientProcessor clientProcessor = new ClientProcessor();
-            //PaymentData payments = new PaymentData();
-            List<Customer> customers = CustomerData.AddCustomers();
-            var customersById = clientProcessor.GetCustomerByCustomerId(customers, 1);
-            var byCategory = clientProcessor.OrderByCategory(customersById);
-            foreach (var item in byCategory)
+            ConsoleAplicationController controller = new ConsoleAplicationController();
+            controller.StartMessage();
+            while (controller.State)
             {
-                Console.WriteLine(item);
+                controller.StandardMessage();
+                controller.Select();
+                controller.EndMessage();
             }
-            var compare = clientProcessor.CompareMonthlyPayments(customersById);
-            Console.WriteLine(compare);
         }
     }
 }

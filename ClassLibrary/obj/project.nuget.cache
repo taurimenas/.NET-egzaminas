@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YObhpSCq5ifkuYQwKnuZ6h9IvfJAG3VDDfEw5ek/QiNhh2Br38D2mfdXo2tJp4Gh+feUEWEUhhyJxOx94UoP8Q==",
+  "dgSpecHash": "52j2/bs3tZ0vcnIslowp1jTG9oQUUnN9umnhSHzq2lkv16s2fMOH0mRhM81Vmi0iJSr142wfdle6NmwWefKYZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tauras\\Desktop\\EgzaminasPraktineUzduotis\\ClassLibrary\\ClassLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Tauras\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

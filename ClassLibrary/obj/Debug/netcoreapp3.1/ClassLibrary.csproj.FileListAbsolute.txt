@@ -2,8 +2,8 @@ C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\bin\Debug\netcore
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.dll
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csprojAssemblyReference.cache
-C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfoInputs.cache
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.AssemblyInfo.cs
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.dll
 C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\ClassLibrary\obj\Debug\netcoreapp3.1\ClassLibrary.csproj.CoreCompileInputs.cache

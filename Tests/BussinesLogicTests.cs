@@ -1,4 +1,4 @@
-using ClassLibrary;
+﻿using ClassLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +9,8 @@ namespace Tests
 {
     public class UnitTests
     {
-        ClientProcessor clientProcessor = new ClientProcessor();
-        List<Customer> customers = CustomerData.AddCustomers();
-
+        readonly ClientProcessor clientProcessor = new ClientProcessor();
+        readonly List<Customer> customers = CustomerData.AddCustomers();
 
         [Fact]
         public void ShouldGetOneCustomerByCustomerId()
@@ -23,13 +22,18 @@ namespace Tests
             // Assert
             Assert.Equal(expected, actual);
         }
-        [Fact]
-        public void ShouldGetCorrectlyOrderedListByCategory()
+        [Theory]
+        [InlineData("EntertainmentFoodTaxesTaxes")]
+        public void ShouldGetCorrectlyOrderedListByCategory(string expected)
         {
             // Arrange
-            List<Payment> expected = customers[0].Payments.OrderBy(x => x.Category).ToList();
             // Act
-            List<Payment> actual = clientProcessor.OrderByCategory(customers[0]);
+            List<Payment> actualList = clientProcessor.OrderByCategory(customers[0]);
+            string actual = "";
+            foreach (var item in actualList)
+            {
+                actual += item.Category.Name;
+            }
             // Assert
             Assert.Equal(expected, actual);
         }
@@ -41,7 +45,7 @@ namespace Tests
             // Arrange
             List<Payment> expected = customers[0].Payments.Where(x => x.MonthId == month).ToList();
             // Act
-            List<Payment> actual = clientProcessor.GetPaymentsOfThisMonthByCustomerId(customers[0], month);
+            List<Payment> actual = clientProcessor.GetPaymentsOfSelectedMonthByCustomerId(customers[0], month);
             // Assert
             Assert.Equal(expected, actual);
         }
@@ -52,6 +56,57 @@ namespace Tests
             // Arrange
             // Act
             string actual = clientProcessor.CompareMonthlyPayments(customers[0]);
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Theory]
+        [InlineData("Food 1 Taxes 0 Entertainment 50 ", Month.LastMonth)]
+        [InlineData("Food 0 Taxes 60 Entertainment 0 ", Month.ThisMonth)]
+        public void SumByCategoryFilterShouldWork(string expected, Month month)
+        {
+            // Arrange
+            // Act
+            string actual = "";
+            var result = clientProcessor.SumByCategory(customers[0], month);
+            foreach (var item in result)
+            {
+                actual += $"{item.Key.Name} {item.Value} ";
+            }
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Theory]
+        [InlineData("Food Entertainment ")]
+        public void CompererShouldShowCorrectCategoriesWithSums(string expected)
+        {
+            // Arrange
+            // Act
+            string actual = "";
+            var result = clientProcessor.CompareSpendings(customers[0]);
+            foreach (var item in result)
+            {
+                actual += $"{item} ";
+            }
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Theory]
+        [InlineData("Taxes", 50, Month.ThisMonth)]
+        [InlineData("Entertainment", 10, Month.LastMonth)]
+        [InlineData("FoodEntertainment", 0, Month.LastMonth)]
+        public void ShouldGetCategoriesAboveLimit(string expected, int limit, Month month)
+        {
+            // Arrange
+            // Act
+            string actual = "";
+            var result = clientProcessor.GetCategoryWithAboveLimit(customers[0], limit, month);
+            foreach (var item in result)
+            {
+                actual += $"{item}";
+            }
             // Assert
             Assert.Equal(expected, actual);
         }

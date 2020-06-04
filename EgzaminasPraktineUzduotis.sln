@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgzaminasPraktineUzduotis", "EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis.csproj", "{9C8819D3-2E93-4C50-BFA1-350E1367F97F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgzaminasPraktineUzduotis", "EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis.csproj", "{9C8819D3-2E93-4C50-BFA1-350E1367F97F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{296BA3A2-C8BD-4A26-9EBB-F275BBD4D903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{296BA3A2-C8BD-4A26-9EBB-F275BBD4D903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{D460D318-99AB-4851-9E38-246FA9B30FC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{D460D318-99AB-4851-9E38-246FA9B30FC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
