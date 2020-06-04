@@ -1,0 +1,16 @@
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.exe
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.deps.json
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.runtimeconfig.json
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.runtimeconfig.dev.json
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.dll
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.pdb
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.csprojAssemblyReference.cache
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.csproj.CoreCompileInputs.cache
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.AssemblyInfoInputs.cache
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.AssemblyInfo.cs
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.dll
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.pdb
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.genruntimeconfig.cache
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\ClassLibrary.dll
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\bin\Debug\netcoreapp3.1\ClassLibrary.pdb
+C:\Users\Tauras\Desktop\EgzaminasPraktineUzduotis\EgzaminasPraktineUzduotis\obj\Debug\netcoreapp3.1\EgzaminasPraktineUzduotis.csproj.CopyComplete
